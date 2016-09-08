@@ -1,0 +1,55 @@
+
+
+
+
+h2
+{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.top
+{
+    display: flex;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 20px;
+}
+
+.left
+{
+    padding-top: 1%;
+    width: 25%;
+}
+
+.right
+{
+    padding-left: 1%;
+    width: 75%;
+}
+
+.author
+{
+    color: #999;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.image
+{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+@media (max-width:720px)
+{
+    .left
+    {
+        display: none;
+    }
+    .right
+    {
+        width: 100%;
+    }
+}
+
