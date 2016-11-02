@@ -1,0 +1,67 @@
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.col-1
+{
+    width: 80px;
+}
+
+.col-2
+{
+    width: 140px;
+}
+
+.col-3
+{
+    width: 75px;
+    text-align: center;
+}
+
+.col-4
+{
+    width: 75px;
+    text-align: center;
+}
+
+th
+{
+    color: #FFF;
+}
+
+thead th.col-3, .plan
+{
+    background-color: #e74f3a;
+}
+
+thead th.col-4, .extras
+{
+    background-color: #8f9193;
+}
+
+tbody td
+{
+    background-color: #f0f1f1;
+}
+
+tr
+{
+    border-top: 2px solid #fff;
+}
+
+td, th
+{
+    padding: 5px 10px;
+}
+
+.prices td
+{
+    height: 50px;
+}
+
+.discount
+{
+    color: #b94a48;
+}
