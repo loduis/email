@@ -66,5 +66,6 @@ a.button
 }
 
 .call {
-  margin-top: 20px;
+    margin-top: 20px;
+    min-width: 400px;
 }
