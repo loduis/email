@@ -9,10 +9,6 @@
 
 body
 {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
     line-height: normal;
     font: 15px 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333;
@@ -26,13 +22,8 @@ p
 
 a
 {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    vertical-align: baseline;
-    text=-decoration: none;
-    color: #369;
+  color: #369;
+  text-decoration: none;
 }
 
 h1
