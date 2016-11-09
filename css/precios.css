@@ -63,7 +63,7 @@ a.button
     text-decoration: none;
     border-radius: 15px;
     background: #e54c00;
-    background: linear-gradient(to bottom,#F60 0%, #C30 100%);
+    background-image: linear-gradient(to bottom,#F60 0%, #C30 100%);
 }
 
 .call {
