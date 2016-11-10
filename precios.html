@@ -61,17 +61,12 @@
                 <p>Y si tiene preguntas sobre esta promoción...</p>
             </div>
             <div class="footer">
-            <p>Copyright (C) *|CURRENT_YEAR|* *|LIST:COMPANY|* All rights reserved.<p>  
-            <p>*|LIST:DESCRIPTION|* <br />
-            <br />
-            <a href="*|UNSUB|*">Unsubscribe</a> *|EMAIL|* from this list.<br />
-            <br />
-            *|HTML:LIST_ADDRESS_HTML|*<br />
-
-            <a href="*|FORWARD|*">Forward</a> this email to a friend<br />
-            <a href="*|UPDATE_PROFILE|*">Update your profile</a><br />
-            <br />
-            *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*</p>
+            <p>Copyright (C) *|CURRENT_YEAR|* *|LIST:COMPANY|* All rights reserved.<p>
+            <p>*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*</p>
+            <p>Our mailing adress is:<br />*|HTML:LIST_ADDRESS_HTML|*</p>
+            <p>Want to change how you receive these emails?<br />
+              You can <a href="*|UPDATE_PROFILE|*">update your preferences</a> or <a href="*|UNSUB|*">unsubscribe</a> from this list</p>
+            <p>*|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*</p>
             </div>
         </div>
     </body>
