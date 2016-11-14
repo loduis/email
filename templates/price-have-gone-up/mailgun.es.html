@@ -12,8 +12,8 @@
         <div class="container">
             <div class="header">Usted está recibiendo este email por que registró una cuenta de
                 <a href="https://www.myabakus.com/web/software-contable.html">myAbakus</a> para
-                <b>*|COMPANY|*</b> en *|COUNTRY|*. Para no recibir mas emails
-                <a href="*|UNSUB|*">haga clic aquí para cancelar su cuenta</a>.
+                <b>%recipient.company_name%</b> en %recipient.country_name%. Para no recibir mas emails
+                <a href="%mailing_list_unsubscribe_url%">haga clic aquí para cancelar su cuenta</a>.
             </div>
             <div class="top">
                 <a href="https://www.myabakus.com/web/software-contable.html">
@@ -64,8 +64,8 @@
                 <p>Si tiene preguntas, puede responder a este email o contactarnos por chat en nuestra página web o dentro de la aplicación.</p>
             </div>
             <div class="footer">
-                <p>Copyright (C) *|CURRENT_YEAR|* *|LIST:COMPANY|* Todos los derechos reservados.
-                <p><p>Nuestra dirección es:<br /> *|LIST:ADDRESS|*</p><p>Para no recibir más emails simplemente <a href="*|UNSUB|*">haga clic aquí para cancelar su cuenta</a></p><p>*|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*</p>
+                <p>Copyright (C) %current.year% %company.name% Todos los derechos reservados.
+                <p><p>Nuestra dirección es:<br /> %company.address%</p><p>Para no recibir más emails simplemente <a href="%mailing_list_unsubscribe_url%">haga clic aquí para cancelar su cuenta</a></p>
             </div>
         </div>
     </body>

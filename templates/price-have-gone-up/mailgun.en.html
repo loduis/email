@@ -12,8 +12,8 @@
         <div class="container">
             <div class="header">You are receiving this email because you signed-up for a
                 <a href="https://www.myabakus.com/web/online-accounting-software.html">myAbakus</a> account for
-                <b>*|COMPANY|*</b> in *|COUNTRY|*. To stop receiving emails
-                <a href="*|UNSUB|*">click here to cancel your account</a>.
+                <b>%recipient.company_name%</b> in %recipient.country_name%. To stop receiving emails
+                <a href="*%mailing_list_unsubscribe_url%*">click here to cancel your account</a>.
             </div>
             <div class="top">
                 <a href="https://www.myabakus.com/web/online-accounting-software.html">
@@ -64,8 +64,8 @@
                 <p>If you have any questions, you can reply to this email or contact us by chat in our website or inside the app.</p>
             </div>
             <div class="footer">
-                <p>Copyright (C) *|CURRENT_YEAR|* *|LIST:COMPANY|* All rights reserved.
-                <p><p>Our mailing adress is:<br /> *|LIST:ADDRESS|*</p><p>To stop receiving emails <a href="*|UNSUB|*">click here to cancel your account</a></p><p>*|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*</p>
+                <p>Copyright (C) %current.year% %company.name% All rights reserved.
+                <p><p>Our mailing adress is:<br /> %company.address%</p><p>To stop receiving emails <a href="%mailing_list_unsubscribe_url%">click here to cancel your account</a></p><p>*|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*</p>
             </div>
         </div>
     </body>
